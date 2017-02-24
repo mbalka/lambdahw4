@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Page</title>
+  <link rel="stylesheet" type="text/css" href="static/styles/styles.css">
+</head>
+<body>
+<h1>This is movie page</h1>
+<form action = '{{ url_for('movie') }}' method = "POST">
+  <h3>Movie Info</h3>
+  Name<br>
+  <input type = "text" name = "name" /></br>
+  Genre<br>
+  <input type = "text" name = "genre" /><br>
+  Starring Actor<br>
+  <input type = "text" name = "starringActor" /><br>
+  Year<br>
+  <input type = "text" name = "year" /><br>
+  <input type = "submit" value = "submit" /><br>
+</form>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="static/styles/styles.css"/>
+</head>
+<body>
+<h1>This is the home page, test successful</h1>
+
+<form action='{{ url_for('movies')}}' method="GET">
+    <h3> Search</h3>
+    <input type="text" name="name" />
+    <input type="submit" />
+  </form>
+  <h3><a href="/enternew">Add Movie</a></h3>
+
+
+</body>
+
+
+
+</html>

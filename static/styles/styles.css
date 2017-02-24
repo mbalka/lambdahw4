@@ -1,0 +1,17 @@
+html {
+background-color: whitesmoke;
+font-size: 15px;
+
+}
+
+
+
+body, html {
+margin: 25;
+padding: 10;
+font-family: monospace;
+color: blue;
+text-align: center;
+
+
+}
